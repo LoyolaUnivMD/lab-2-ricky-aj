@@ -1,3 +1,23 @@
+import Scanner
+import Random
+import DecimalFormat
+
+Assign prize as 225938745L (long)
+Assign Scanner input
+Assign Random rand
+Assign DecimalFormat for lottery numbers (leading 0 for numbers < 10)
+Assign DecimalFormat for prize
+
 print out description of the program
 ask for the player's name
-...
+
+for loop (int i = 0, i<=10, i++) --> print ten lottery tickets
+    for loop (int j=0, j<=6, j++) --> print 6 numbers for each lottery ticket
+        print random number < 100
+
+
+print "Good luck" + player's name
+print estimated winnings in prize DecimalFormat ("$###,###,###")
+
+
+
