@@ -29,8 +29,8 @@ class Lab2 {
         String customerName = input.next();
 
         // Generate 10 tickets with 6 numbers each
-        for (int i = 0; i <= 10; i++){
-            for (int j = 0; j <= 6; j++){
+        for (int i = 0; i < 10; i++){
+            for (int j = 0; j < 6; j++){
                 System.out.print(frmt.format(rand.nextInt(100)) + " ");
             }
             System.out.println(); // Separate lines of tickets
