@@ -7,6 +7,7 @@
 // Data Out: User's name, user's estimated winnings, ticket numbers
 // Credits: N/A
 
+// Import all utilities
 import java.util.Scanner;
 import java.util.Random;
 import java.text.DecimalFormat;
