@@ -1,12 +1,11 @@
-// Programmers:  [your names here]
+// Programmers:  Amari Piper, Ricky Johnson
 // Course:  CS 212
-// Due Date:
-// Lab Assignment:
-// Problem Statement:
-// Data In:
-// Data Out:
-// Credits: [Is your code based on an example in the book, in class, or something else?
-//            Reminder: you should never take code from the Internet or another person
+// Due Date: 2/4/202
+// Lab Assignment: 2
+// Problem Statement: Write a Java program for the Quick Play function from the lottery vending machine.
+// Data In: User's Name
+// Data Out: User's name, user's estimated winnings, ticket numbers
+// Credits: N/A
 
 import java.util.Scanner;
 import java.util.Random;
