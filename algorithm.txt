@@ -11,8 +11,8 @@ Assign DecimalFormat for prize
 print out description of the program
 ask for the player's name
 
-for loop (int i = 0, i<=10, i++) --> print ten lottery tickets
-    for loop (int j=0, j<=6, j++) --> print 6 numbers for each lottery ticket
+for loop (int i = 0, i<=10, i++) to print ten lottery tickets
+    for loop (int j=0, j<=6, j++) to print 6 numbers for each lottery ticket
         print random number < 100
 
 
