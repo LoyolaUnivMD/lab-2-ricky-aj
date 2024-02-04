@@ -1,23 +1,32 @@
-import Scanner
-import Random
-import DecimalFormat
+import Scanner class
+import Random class
+import DecimalFormat class
+import Math class
 
-Assign prize as 225938745L (long)
-Assign Scanner input
-Assign Random rand
-Assign DecimalFormat for lottery numbers (leading 0 for numbers < 10)
-Assign DecimalFormat for prize
+assign Scanner input
+assign Random rand
+assign DecimalFormat for lottery numbers (leading 0 for numbers < 10)
+assign DecimalFormat for currency (used for prize and bet outputs)
 
 print out description of the program
 ask for the player's name
+ask for player's bet
+print player's name and bet
+
+assign prize value as 0
 
 for loop (int i = 0, i<=10, i++) to print ten lottery tickets
     for loop (int j=0, j<=6, j++) to print 6 numbers for each lottery ticket
-        print random number < 100
+        assign number as a random int (0-99 inclusive)
+        print number with currency formatting
+
+        if number is equal to a winning number (3, 5, 16, 58, 59, 11)
+            prize = prize + bet to the power of 1.75
+
 
 
 print "Good luck" + player's name
-print estimated winnings in prize DecimalFormat ("$###,###,###")
+print winnings in currency formatting
 
 
 
